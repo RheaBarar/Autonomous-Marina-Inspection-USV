@@ -1,0 +1,17 @@
+/root/marina_asv/install/share/marina_asv_description/urdf/marina_asv.urdf.xacro
+/root/marina_asv/install/share/marina_asv_description/launch/view_robot.launch.py
+/root/marina_asv/install/share/ament_index/resource_index/package_run_dependencies/marina_asv_description
+/root/marina_asv/install/share/ament_index/resource_index/parent_prefix_path/marina_asv_description
+/root/marina_asv/install/share/marina_asv_description/environment/ament_prefix_path.sh
+/root/marina_asv/install/share/marina_asv_description/environment/ament_prefix_path.dsv
+/root/marina_asv/install/share/marina_asv_description/environment/path.sh
+/root/marina_asv/install/share/marina_asv_description/environment/path.dsv
+/root/marina_asv/install/share/marina_asv_description/local_setup.bash
+/root/marina_asv/install/share/marina_asv_description/local_setup.sh
+/root/marina_asv/install/share/marina_asv_description/local_setup.zsh
+/root/marina_asv/install/share/marina_asv_description/local_setup.dsv
+/root/marina_asv/install/share/marina_asv_description/package.dsv
+/root/marina_asv/install/share/ament_index/resource_index/packages/marina_asv_description
+/root/marina_asv/install/share/marina_asv_description/cmake/marina_asv_descriptionConfig.cmake
+/root/marina_asv/install/share/marina_asv_description/cmake/marina_asv_descriptionConfig-version.cmake
+/root/marina_asv/install/share/marina_asv_description/package.xml

@@ -1,0 +1,4 @@
+source;share/marina_asv_description/local_setup.bash
+source;share/marina_asv_description/local_setup.dsv
+source;share/marina_asv_description/local_setup.sh
+source;share/marina_asv_description/local_setup.zsh

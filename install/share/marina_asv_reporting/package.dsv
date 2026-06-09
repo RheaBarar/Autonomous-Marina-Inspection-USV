@@ -1,0 +1,9 @@
+source;share/marina_asv_reporting/hook/cmake_prefix_path.ps1
+source;share/marina_asv_reporting/hook/cmake_prefix_path.dsv
+source;share/marina_asv_reporting/hook/cmake_prefix_path.sh
+source;share/marina_asv_reporting/hook/pythonpath.ps1
+source;share/marina_asv_reporting/hook/pythonpath.dsv
+source;share/marina_asv_reporting/hook/pythonpath.sh
+source;share/marina_asv_reporting/hook/ament_prefix_path.ps1
+source;share/marina_asv_reporting/hook/ament_prefix_path.dsv
+source;share/marina_asv_reporting/hook/ament_prefix_path.sh

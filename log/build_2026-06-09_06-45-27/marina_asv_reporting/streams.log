@@ -1,0 +1,29 @@
+[2.772s] Invoking command in '/root/marina_asv/src/marina_asv_reporting': PYTHONPATH=/root/marina_asv/build/marina_asv_reporting/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/marina_asv/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marina_asv_reporting build --build-base /root/marina_asv/build/marina_asv_reporting/build install --record /root/marina_asv/build/marina_asv_reporting/install.log --single-version-externally-managed install_data
+[3.150s] running egg_info
+[3.150s] creating ../../build/marina_asv_reporting/marina_asv_reporting.egg-info
+[3.175s] writing ../../build/marina_asv_reporting/marina_asv_reporting.egg-info/PKG-INFO
+[3.176s] writing dependency_links to ../../build/marina_asv_reporting/marina_asv_reporting.egg-info/dependency_links.txt
+[3.176s] writing requirements to ../../build/marina_asv_reporting/marina_asv_reporting.egg-info/requires.txt
+[3.177s] writing top-level names to ../../build/marina_asv_reporting/marina_asv_reporting.egg-info/top_level.txt
+[3.177s] writing manifest file '../../build/marina_asv_reporting/marina_asv_reporting.egg-info/SOURCES.txt'
+[3.225s] reading manifest file '../../build/marina_asv_reporting/marina_asv_reporting.egg-info/SOURCES.txt'
+[3.225s] writing manifest file '../../build/marina_asv_reporting/marina_asv_reporting.egg-info/SOURCES.txt'
+[3.226s] running build
+[3.226s] running build_py
+[3.226s] creating /root/marina_asv/build/marina_asv_reporting/build
+[3.226s] creating /root/marina_asv/build/marina_asv_reporting/build/lib
+[3.227s] creating /root/marina_asv/build/marina_asv_reporting/build/lib/marina_asv_reporting
+[3.227s] copying marina_asv_reporting/__init__.py -> /root/marina_asv/build/marina_asv_reporting/build/lib/marina_asv_reporting
+[3.227s] running install
+[3.234s] running install_lib
+[3.267s] creating /root/marina_asv/install/lib/python3.12/site-packages/marina_asv_reporting
+[3.268s] copying /root/marina_asv/build/marina_asv_reporting/build/lib/marina_asv_reporting/__init__.py -> /root/marina_asv/install/lib/python3.12/site-packages/marina_asv_reporting
+[3.269s] byte-compiling /root/marina_asv/install/lib/python3.12/site-packages/marina_asv_reporting/__init__.py to __init__.cpython-312.pyc
+[3.270s] running install_data
+[3.271s] copying resource/marina_asv_reporting -> /root/marina_asv/install/share/ament_index/resource_index/packages
+[3.271s] copying package.xml -> /root/marina_asv/install/share/marina_asv_reporting
+[3.271s] running install_egg_info
+[3.307s] Copying ../../build/marina_asv_reporting/marina_asv_reporting.egg-info to /root/marina_asv/install/lib/python3.12/site-packages/marina_asv_reporting-0.0.0-py3.12.egg-info
+[3.309s] running install_scripts
+[3.505s] writing list of installed files to '/root/marina_asv/build/marina_asv_reporting/install.log'
+[3.570s] Invoked command in '/root/marina_asv/src/marina_asv_reporting' returned '0': PYTHONPATH=/root/marina_asv/build/marina_asv_reporting/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/marina_asv/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marina_asv_reporting build --build-base /root/marina_asv/build/marina_asv_reporting/build install --record /root/marina_asv/build/marina_asv_reporting/install.log --single-version-externally-managed install_data

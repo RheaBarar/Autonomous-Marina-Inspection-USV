@@ -1,0 +1,42 @@
+[0.898s] Invoking command in '/root/marina_asv/build/marina_asv_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/marina_asv/src/marina_asv_simulation -DCMAKE_INSTALL_PREFIX=/root/marina_asv/install
+[0.987s] -- The C compiler identification is GNU 13.3.0
+[1.093s] -- The CXX compiler identification is GNU 13.3.0
+[1.122s] -- Detecting C compiler ABI info
+[1.299s] -- Detecting C compiler ABI info - done
+[1.313s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.313s] -- Detecting C compile features
+[1.313s] -- Detecting C compile features - done
+[1.331s] -- Detecting CXX compiler ABI info
+[1.476s] -- Detecting CXX compiler ABI info - done
+[1.488s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.488s] -- Detecting CXX compile features
+[1.489s] -- Detecting CXX compile features - done
+[1.496s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.722s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.946s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.183s] -- Added test 'lint_cmake' to check CMake code style
+[2.188s] -- Added test 'xmllint' to check XML markup files
+[2.199s] -- Configuring done (1.3s)
+[2.207s] -- Generating done (0.0s)
+[2.210s] -- Build files have been written to: /root/marina_asv/build/marina_asv_simulation
+[2.217s] Invoked command in '/root/marina_asv/build/marina_asv_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/marina_asv/src/marina_asv_simulation -DCMAKE_INSTALL_PREFIX=/root/marina_asv/install
+[2.219s] Invoking command in '/root/marina_asv/build/marina_asv_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/marina_asv/build/marina_asv_simulation -- -j8 -l8
+[2.277s] Invoked command in '/root/marina_asv/build/marina_asv_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/marina_asv/build/marina_asv_simulation -- -j8 -l8
+[2.279s] Invoking command in '/root/marina_asv/build/marina_asv_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/marina_asv/build/marina_asv_simulation
+[2.295s] -- Install configuration: ""
+[2.296s] -- Installing: /root/marina_asv/install/share/ament_index/resource_index/package_run_dependencies/marina_asv_simulation
+[2.296s] -- Installing: /root/marina_asv/install/share/ament_index/resource_index/parent_prefix_path/marina_asv_simulation
+[2.298s] -- Installing: /root/marina_asv/install/share/marina_asv_simulation/environment/ament_prefix_path.sh
+[2.298s] -- Installing: /root/marina_asv/install/share/marina_asv_simulation/environment/ament_prefix_path.dsv
+[2.299s] -- Installing: /root/marina_asv/install/share/marina_asv_simulation/environment/path.sh
+[2.299s] -- Installing: /root/marina_asv/install/share/marina_asv_simulation/environment/path.dsv
+[2.299s] -- Installing: /root/marina_asv/install/share/marina_asv_simulation/local_setup.bash
+[2.300s] -- Installing: /root/marina_asv/install/share/marina_asv_simulation/local_setup.sh
+[2.300s] -- Installing: /root/marina_asv/install/share/marina_asv_simulation/local_setup.zsh
+[2.300s] -- Installing: /root/marina_asv/install/share/marina_asv_simulation/local_setup.dsv
+[2.300s] -- Installing: /root/marina_asv/install/share/marina_asv_simulation/package.dsv
+[2.300s] -- Installing: /root/marina_asv/install/share/ament_index/resource_index/packages/marina_asv_simulation
+[2.301s] -- Installing: /root/marina_asv/install/share/marina_asv_simulation/cmake/marina_asv_simulationConfig.cmake
+[2.301s] -- Installing: /root/marina_asv/install/share/marina_asv_simulation/cmake/marina_asv_simulationConfig-version.cmake
+[2.301s] -- Installing: /root/marina_asv/install/share/marina_asv_simulation/package.xml
+[2.303s] Invoked command in '/root/marina_asv/build/marina_asv_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/marina_asv/build/marina_asv_simulation

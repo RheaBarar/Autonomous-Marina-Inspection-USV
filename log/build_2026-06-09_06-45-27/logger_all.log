@@ -1,0 +1,378 @@
+[0.150s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--merge-install']
+[0.151s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=True, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d35f1bb6390>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d35f1bb6150>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d35f1bb6150>>, mixin_verb=('build',))
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.205s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.206s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.206s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.206s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/marina_asv'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_description) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_description) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_description) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_description) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_description) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_description) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_description) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_description) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_description) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/marina_asv_description' with type 'ros.catkin' and name 'marina_asv_description'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_navigation) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_navigation) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_navigation) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_navigation) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_navigation) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_navigation) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_navigation) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_navigation) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/marina_asv_navigation' with type 'ros.ament_python' and name 'marina_asv_navigation'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_perception) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_perception) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_perception) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_perception) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_perception) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_perception) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_perception) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_perception) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'src/marina_asv_perception' with type 'ros.ament_python' and name 'marina_asv_perception'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_reporting) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_reporting) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_reporting) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_reporting) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_reporting) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_reporting) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_reporting) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_reporting) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_reporting) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/marina_asv_reporting' with type 'ros.ament_python' and name 'marina_asv_reporting'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_simulation) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_simulation) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_simulation) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_simulation) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_simulation) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_simulation) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_simulation) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/marina_asv_simulation) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/marina_asv_simulation' with type 'ros.ament_cmake' and name 'marina_asv_simulation'
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_description' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_description' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'marina_asv_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/marina_asv/build/marina_asv_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/marina_asv/install', 'merge_install': True, 'path': '/root/marina_asv/src/marina_asv_description', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_navigation' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_navigation' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'marina_asv_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/marina_asv/build/marina_asv_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/marina_asv/install', 'merge_install': True, 'path': '/root/marina_asv/src/marina_asv_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_perception' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_perception' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'marina_asv_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/marina_asv/build/marina_asv_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/marina_asv/install', 'merge_install': True, 'path': '/root/marina_asv/src/marina_asv_perception', 'symlink_install': False, 'test_result_base': None}
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_reporting' build argument 'cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_reporting' build argument 'cmake_target' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_reporting' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_reporting' build argument 'cmake_clean_cache' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_reporting' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_reporting' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_reporting' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_reporting' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_reporting' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'marina_asv_reporting' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/marina_asv/build/marina_asv_reporting', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/marina_asv/install', 'merge_install': True, 'path': '/root/marina_asv/src/marina_asv_reporting', 'symlink_install': False, 'test_result_base': None}
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_simulation' build argument 'cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_simulation' build argument 'cmake_target' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'marina_asv_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'marina_asv_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/marina_asv/build/marina_asv_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/marina_asv/install', 'merge_install': True, 'path': '/root/marina_asv/src/marina_asv_simulation', 'symlink_install': False, 'test_result_base': None}
+[0.282s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.285s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.285s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/root/marina_asv/src/marina_asv_description' with build type 'catkin'
+[0.285s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/marina_asv/src/marina_asv_description'
+[0.291s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.293s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/marina_asv/install/marina_asv_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.299s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/marina_asv/src/marina_asv_navigation' with build type 'ament_python'
+[0.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('marina_asv_navigation', 'ament_prefix_path')
+[0.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_navigation/hook/ament_prefix_path.ps1'
+[0.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/marina_asv/install/share/marina_asv_navigation/hook/ament_prefix_path.dsv'
+[0.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_navigation/hook/ament_prefix_path.sh'
+[0.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.304s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.309s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/marina_asv/src/marina_asv_perception' with build type 'ament_python'
+[0.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('marina_asv_perception', 'ament_prefix_path')
+[0.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_perception/hook/ament_prefix_path.ps1'
+[0.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/marina_asv/install/share/marina_asv_perception/hook/ament_prefix_path.dsv'
+[0.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_perception/hook/ament_prefix_path.sh'
+[0.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.317s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/marina_asv/src/marina_asv_reporting' with build type 'ament_python'
+[0.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('marina_asv_reporting', 'ament_prefix_path')
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_reporting/hook/ament_prefix_path.ps1'
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/marina_asv/install/share/marina_asv_reporting/hook/ament_prefix_path.dsv'
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_reporting/hook/ament_prefix_path.sh'
+[0.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.327s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/marina_asv/src/marina_asv_simulation' with build type 'ament_cmake'
+[0.327s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/marina_asv/src/marina_asv_simulation'
+[0.327s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.328s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/marina_asv/build/marina_asv_description': /usr/bin/cmake /root/marina_asv/src/marina_asv_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/marina_asv/install
+[0.654s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/marina_asv/src/marina_asv_navigation'
+[0.654s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.654s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.939s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/marina_asv/src/marina_asv_perception'
+[0.940s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.940s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.210s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/marina_asv/src/marina_asv_reporting'
+[1.210s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.210s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/marina_asv/build/marina_asv_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/marina_asv/src/marina_asv_simulation -DCMAKE_INSTALL_PREFIX=/root/marina_asv/install
+[2.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/marina_asv/build/marina_asv_description' returned '0': /usr/bin/cmake /root/marina_asv/src/marina_asv_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/marina_asv/install
+[2.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/marina_asv/build/marina_asv_description': /usr/bin/cmake --build /root/marina_asv/build/marina_asv_description -- -j8 -l8
+[2.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/marina_asv/build/marina_asv_description' returned '0': /usr/bin/cmake --build /root/marina_asv/build/marina_asv_description -- -j8 -l8
+[2.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/marina_asv/build/marina_asv_description': /usr/bin/cmake --install /root/marina_asv/build/marina_asv_description
+[2.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/marina_asv/build/marina_asv_description' returned '0': /usr/bin/cmake --install /root/marina_asv/build/marina_asv_description
+[2.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('marina_asv_description', 'ros_package_path')
+[2.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_description/hook/ros_package_path.ps1'
+[2.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/marina_asv/install/share/marina_asv_description/hook/ros_package_path.dsv'
+[2.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_description/hook/ros_package_path.sh'
+[2.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('marina_asv_description', 'pkg_config_path')
+[2.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_description/hook/pkg_config_path.ps1'
+[2.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/marina_asv/install/share/marina_asv_description/hook/pkg_config_path.dsv'
+[2.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_description/hook/pkg_config_path.sh'
+[2.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('marina_asv_description', 'pkg_config_path_multiarch')
+[2.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_description/hook/pkg_config_path_multiarch.ps1'
+[2.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/marina_asv/install/share/marina_asv_description/hook/pkg_config_path_multiarch.dsv'
+[2.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_description/hook/pkg_config_path_multiarch.sh'
+[2.451s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(marina_asv_description)
+[2.453s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install' for CMake module files
+[2.454s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install' for CMake config files
+[2.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('marina_asv_description', 'cmake_prefix_path')
+[2.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_description/hook/cmake_prefix_path.ps1'
+[2.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/marina_asv/install/share/marina_asv_description/hook/cmake_prefix_path.dsv'
+[2.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_description/hook/cmake_prefix_path.sh'
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/lib'
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/bin'
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/lib/pkgconfig/marina_asv_description.pc'
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/lib/python3.12/site-packages'
+[2.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('marina_asv_description', 'pythonpath')
+[2.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_description/hook/pythonpath.ps1'
+[2.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/marina_asv/install/share/marina_asv_description/hook/pythonpath.dsv'
+[2.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_description/hook/pythonpath.sh'
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/bin'
+[2.461s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_description/package.ps1'
+[2.463s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/marina_asv/install/share/marina_asv_description/package.dsv'
+[2.463s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_description/package.sh'
+[2.464s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_description/package.bash'
+[2.466s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_description/package.zsh'
+[2.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/marina_asv/install/share/colcon-core/packages/marina_asv_description)
+[2.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/marina_asv/build/marina_asv_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/marina_asv/src/marina_asv_simulation -DCMAKE_INSTALL_PREFIX=/root/marina_asv/install
+[2.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/marina_asv/build/marina_asv_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/marina_asv/build/marina_asv_simulation -- -j8 -l8
+[2.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/marina_asv/build/marina_asv_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/marina_asv/build/marina_asv_simulation -- -j8 -l8
+[2.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/marina_asv/build/marina_asv_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/marina_asv/build/marina_asv_simulation
+[2.630s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(marina_asv_simulation)
+[2.631s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install' for CMake module files
+[2.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/marina_asv/build/marina_asv_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/marina_asv/build/marina_asv_simulation
+[2.632s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install' for CMake config files
+[2.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('marina_asv_simulation', 'cmake_prefix_path')
+[2.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_simulation/hook/cmake_prefix_path.ps1'
+[2.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/marina_asv/install/share/marina_asv_simulation/hook/cmake_prefix_path.dsv'
+[2.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_simulation/hook/cmake_prefix_path.sh'
+[2.634s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/lib'
+[2.635s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/bin'
+[2.635s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/lib/pkgconfig/marina_asv_simulation.pc'
+[2.635s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/lib/python3.12/site-packages'
+[2.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('marina_asv_simulation', 'pythonpath')
+[2.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_simulation/hook/pythonpath.ps1'
+[2.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/marina_asv/install/share/marina_asv_simulation/hook/pythonpath.dsv'
+[2.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_simulation/hook/pythonpath.sh'
+[2.637s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/bin'
+[2.637s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_simulation/package.ps1'
+[2.638s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/marina_asv/install/share/marina_asv_simulation/package.dsv'
+[2.638s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_simulation/package.sh'
+[2.639s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_simulation/package.bash'
+[2.639s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_simulation/package.zsh'
+[2.640s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/marina_asv/install/share/colcon-core/packages/marina_asv_simulation)
+[2.640s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(marina_asv_simulation)
+[2.640s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install' for CMake module files
+[2.641s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install' for CMake config files
+[2.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('marina_asv_simulation', 'cmake_prefix_path')
+[2.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_simulation/hook/cmake_prefix_path.ps1'
+[2.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/marina_asv/install/share/marina_asv_simulation/hook/cmake_prefix_path.dsv'
+[2.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_simulation/hook/cmake_prefix_path.sh'
+[2.644s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/lib'
+[2.644s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/bin'
+[2.644s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/lib/pkgconfig/marina_asv_simulation.pc'
+[2.644s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/lib/python3.12/site-packages'
+[2.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('marina_asv_simulation', 'pythonpath')
+[2.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_simulation/hook/pythonpath.ps1'
+[2.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/marina_asv/install/share/marina_asv_simulation/hook/pythonpath.dsv'
+[2.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_simulation/hook/pythonpath.sh'
+[2.647s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/bin'
+[2.648s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_simulation/package.ps1'
+[2.649s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/marina_asv/install/share/marina_asv_simulation/package.dsv'
+[2.649s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_simulation/package.sh'
+[2.650s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_simulation/package.bash'
+[2.651s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_simulation/package.zsh'
+[2.652s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/marina_asv/install/share/colcon-core/packages/marina_asv_simulation)
+[3.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/marina_asv/src/marina_asv_reporting': PYTHONPATH=/root/marina_asv/build/marina_asv_reporting/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/marina_asv/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marina_asv_reporting build --build-base /root/marina_asv/build/marina_asv_reporting/build install --record /root/marina_asv/build/marina_asv_reporting/install.log --single-version-externally-managed install_data
+[3.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/marina_asv/src/marina_asv_perception': PYTHONPATH=/root/marina_asv/build/marina_asv_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/marina_asv/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marina_asv_perception build --build-base /root/marina_asv/build/marina_asv_perception/build install --record /root/marina_asv/build/marina_asv_perception/install.log --single-version-externally-managed install_data
+[3.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/marina_asv/src/marina_asv_navigation': PYTHONPATH=/root/marina_asv/build/marina_asv_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/marina_asv/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marina_asv_navigation build --build-base /root/marina_asv/build/marina_asv_navigation/build install --record /root/marina_asv/build/marina_asv_navigation/install.log --single-version-externally-managed install_data
+[3.790s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install' for CMake module files
+[3.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/marina_asv/src/marina_asv_perception' returned '0': PYTHONPATH=/root/marina_asv/build/marina_asv_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/marina_asv/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marina_asv_perception build --build-base /root/marina_asv/build/marina_asv_perception/build install --record /root/marina_asv/build/marina_asv_perception/install.log --single-version-externally-managed install_data
+[3.791s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install' for CMake config files
+[3.792s] Level 1:colcon.colcon_core.shell:create_environment_hook('marina_asv_perception', 'cmake_prefix_path')
+[3.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_perception/hook/cmake_prefix_path.ps1'
+[3.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/marina_asv/install/share/marina_asv_perception/hook/cmake_prefix_path.dsv'
+[3.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_perception/hook/cmake_prefix_path.sh'
+[3.793s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/lib'
+[3.793s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/bin'
+[3.794s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/lib/pkgconfig/marina_asv_perception.pc'
+[3.794s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/lib/python3.12/site-packages'
+[3.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('marina_asv_perception', 'pythonpath')
+[3.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_perception/hook/pythonpath.ps1'
+[3.795s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/marina_asv/install/share/marina_asv_perception/hook/pythonpath.dsv'
+[3.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_perception/hook/pythonpath.sh'
+[3.796s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/bin'
+[3.796s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(marina_asv_perception)
+[3.797s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_perception/package.ps1'
+[3.798s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/marina_asv/install/share/marina_asv_perception/package.dsv'
+[3.800s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_perception/package.sh'
+[3.800s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_perception/package.bash'
+[3.801s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_perception/package.zsh'
+[3.801s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/marina_asv/install/share/colcon-core/packages/marina_asv_perception)
+[3.817s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install' for CMake module files
+[3.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/marina_asv/src/marina_asv_navigation' returned '0': PYTHONPATH=/root/marina_asv/build/marina_asv_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/marina_asv/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marina_asv_navigation build --build-base /root/marina_asv/build/marina_asv_navigation/build install --record /root/marina_asv/build/marina_asv_navigation/install.log --single-version-externally-managed install_data
+[3.819s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install' for CMake config files
+[3.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('marina_asv_navigation', 'cmake_prefix_path')
+[3.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_navigation/hook/cmake_prefix_path.ps1'
+[3.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/marina_asv/install/share/marina_asv_navigation/hook/cmake_prefix_path.dsv'
+[3.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_navigation/hook/cmake_prefix_path.sh'
+[3.824s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/lib'
+[3.824s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/bin'
+[3.824s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/lib/pkgconfig/marina_asv_navigation.pc'
+[3.825s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/lib/python3.12/site-packages'
+[3.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('marina_asv_navigation', 'pythonpath')
+[3.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_navigation/hook/pythonpath.ps1'
+[3.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/marina_asv/install/share/marina_asv_navigation/hook/pythonpath.dsv'
+[3.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_navigation/hook/pythonpath.sh'
+[3.829s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/bin'
+[3.829s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(marina_asv_navigation)
+[3.829s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_navigation/package.ps1'
+[3.832s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/marina_asv/install/share/marina_asv_navigation/package.dsv'
+[3.832s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_navigation/package.sh'
+[3.833s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_navigation/package.bash'
+[3.834s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_navigation/package.zsh'
+[3.834s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/marina_asv/install/share/colcon-core/packages/marina_asv_navigation)
+[3.887s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install' for CMake module files
+[3.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/marina_asv/src/marina_asv_reporting' returned '0': PYTHONPATH=/root/marina_asv/build/marina_asv_reporting/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/marina_asv/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marina_asv_reporting build --build-base /root/marina_asv/build/marina_asv_reporting/build install --record /root/marina_asv/build/marina_asv_reporting/install.log --single-version-externally-managed install_data
+[3.888s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install' for CMake config files
+[3.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('marina_asv_reporting', 'cmake_prefix_path')
+[3.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_reporting/hook/cmake_prefix_path.ps1'
+[3.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/marina_asv/install/share/marina_asv_reporting/hook/cmake_prefix_path.dsv'
+[3.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_reporting/hook/cmake_prefix_path.sh'
+[3.891s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/lib'
+[3.891s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/bin'
+[3.891s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/lib/pkgconfig/marina_asv_reporting.pc'
+[3.891s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/lib/python3.12/site-packages'
+[3.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('marina_asv_reporting', 'pythonpath')
+[3.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_reporting/hook/pythonpath.ps1'
+[3.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/marina_asv/install/share/marina_asv_reporting/hook/pythonpath.dsv'
+[3.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/marina_asv/install/share/marina_asv_reporting/hook/pythonpath.sh'
+[3.894s] Level 1:colcon.colcon_core.environment:checking '/root/marina_asv/install/bin'
+[3.894s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(marina_asv_reporting)
+[3.895s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_reporting/package.ps1'
+[3.897s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/marina_asv/install/share/marina_asv_reporting/package.dsv'
+[3.898s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_reporting/package.sh'
+[3.899s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_reporting/package.bash'
+[3.899s] INFO:colcon.colcon_core.shell:Creating package script '/root/marina_asv/install/share/marina_asv_reporting/package.zsh'
+[3.900s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/marina_asv/install/share/colcon-core/packages/marina_asv_reporting)
+[3.900s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.901s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.901s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.901s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.911s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.911s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.911s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.911s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.913s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[3.913s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.914s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/marina_asv/install/local_setup.ps1'
+[3.915s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/marina_asv/install/_local_setup_util_ps1.py'
+[3.916s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/marina_asv/install/setup.ps1'
+[3.917s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/marina_asv/install/local_setup.sh'
+[3.918s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/marina_asv/install/_local_setup_util_sh.py'
+[3.919s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/marina_asv/install/setup.sh'
+[3.920s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/marina_asv/install/local_setup.bash'
+[3.921s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/marina_asv/install/setup.bash'
+[3.922s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/marina_asv/install/local_setup.zsh'
+[3.923s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/marina_asv/install/setup.zsh'

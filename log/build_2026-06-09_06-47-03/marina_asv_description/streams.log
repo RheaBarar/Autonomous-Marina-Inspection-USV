@@ -1,0 +1,26 @@
+[0.078s] Invoking command in '/root/marina_asv/build/marina_asv_description': /usr/bin/cmake --build /root/marina_asv/build/marina_asv_description -- -j8 -l8
+[0.923s] Invoked command in '/root/marina_asv/build/marina_asv_description' returned '0': /usr/bin/cmake --build /root/marina_asv/build/marina_asv_description -- -j8 -l8
+[0.939s] Invoking command in '/root/marina_asv/build/marina_asv_description': /usr/bin/cmake --install /root/marina_asv/build/marina_asv_description
+[0.955s] -- Install configuration: ""
+[0.956s] -- Up-to-date: /root/marina_asv/install/share/marina_asv_description/urdf
+[0.957s] -- Up-to-date: /root/marina_asv/install/share/marina_asv_description/urdf/marina_asv.urdf.xacro
+[0.957s] -- Up-to-date: /root/marina_asv/install/share/marina_asv_description/meshes
+[0.964s] -- Up-to-date: /root/marina_asv/install/share/marina_asv_description/launch
+[0.964s] -- Installing: /root/marina_asv/install/share/marina_asv_description/launch/view_robot.launch.py
+[0.965s] -- Up-to-date: /root/marina_asv/install/share/marina_asv_description/config
+[0.966s] -- Up-to-date: /root/marina_asv/install/share/ament_index/resource_index/package_run_dependencies/marina_asv_description
+[0.966s] -- Up-to-date: /root/marina_asv/install/share/ament_index/resource_index/parent_prefix_path/marina_asv_description
+[0.966s] -- Up-to-date: /root/marina_asv/install/share/marina_asv_description/environment/ament_prefix_path.sh
+[0.967s] -- Up-to-date: /root/marina_asv/install/share/marina_asv_description/environment/ament_prefix_path.dsv
+[0.967s] -- Up-to-date: /root/marina_asv/install/share/marina_asv_description/environment/path.sh
+[0.968s] -- Up-to-date: /root/marina_asv/install/share/marina_asv_description/environment/path.dsv
+[0.968s] -- Up-to-date: /root/marina_asv/install/share/marina_asv_description/local_setup.bash
+[0.968s] -- Up-to-date: /root/marina_asv/install/share/marina_asv_description/local_setup.sh
+[0.968s] -- Up-to-date: /root/marina_asv/install/share/marina_asv_description/local_setup.zsh
+[0.969s] -- Up-to-date: /root/marina_asv/install/share/marina_asv_description/local_setup.dsv
+[0.970s] -- Up-to-date: /root/marina_asv/install/share/marina_asv_description/package.dsv
+[0.970s] -- Up-to-date: /root/marina_asv/install/share/ament_index/resource_index/packages/marina_asv_description
+[0.971s] -- Up-to-date: /root/marina_asv/install/share/marina_asv_description/cmake/marina_asv_descriptionConfig.cmake
+[0.972s] -- Up-to-date: /root/marina_asv/install/share/marina_asv_description/cmake/marina_asv_descriptionConfig-version.cmake
+[0.972s] -- Up-to-date: /root/marina_asv/install/share/marina_asv_description/package.xml
+[0.973s] Invoked command in '/root/marina_asv/build/marina_asv_description' returned '0': /usr/bin/cmake --install /root/marina_asv/build/marina_asv_description

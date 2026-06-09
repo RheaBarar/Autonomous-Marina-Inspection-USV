@@ -1,0 +1,6 @@
+Invoking command in '/root/marina_asv/build/marina_asv_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/marina_asv/src/marina_asv_simulation -DCMAKE_INSTALL_PREFIX=/root/marina_asv/install
+Invoked command in '/root/marina_asv/build/marina_asv_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/marina_asv/src/marina_asv_simulation -DCMAKE_INSTALL_PREFIX=/root/marina_asv/install
+Invoking command in '/root/marina_asv/build/marina_asv_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/marina_asv/build/marina_asv_simulation -- -j8 -l8
+Invoked command in '/root/marina_asv/build/marina_asv_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/marina_asv/build/marina_asv_simulation -- -j8 -l8
+Invoking command in '/root/marina_asv/build/marina_asv_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/marina_asv/build/marina_asv_simulation
+Invoked command in '/root/marina_asv/build/marina_asv_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/marina_asv/build/marina_asv_simulation

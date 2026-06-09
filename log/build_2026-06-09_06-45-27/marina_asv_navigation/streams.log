@@ -1,0 +1,29 @@
+[2.800s] Invoking command in '/root/marina_asv/src/marina_asv_navigation': PYTHONPATH=/root/marina_asv/build/marina_asv_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/marina_asv/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marina_asv_navigation build --build-base /root/marina_asv/build/marina_asv_navigation/build install --record /root/marina_asv/build/marina_asv_navigation/install.log --single-version-externally-managed install_data
+[3.154s] running egg_info
+[3.155s] creating ../../build/marina_asv_navigation/marina_asv_navigation.egg-info
+[3.175s] writing ../../build/marina_asv_navigation/marina_asv_navigation.egg-info/PKG-INFO
+[3.175s] writing dependency_links to ../../build/marina_asv_navigation/marina_asv_navigation.egg-info/dependency_links.txt
+[3.175s] writing requirements to ../../build/marina_asv_navigation/marina_asv_navigation.egg-info/requires.txt
+[3.176s] writing top-level names to ../../build/marina_asv_navigation/marina_asv_navigation.egg-info/top_level.txt
+[3.176s] writing manifest file '../../build/marina_asv_navigation/marina_asv_navigation.egg-info/SOURCES.txt'
+[3.221s] reading manifest file '../../build/marina_asv_navigation/marina_asv_navigation.egg-info/SOURCES.txt'
+[3.223s] writing manifest file '../../build/marina_asv_navigation/marina_asv_navigation.egg-info/SOURCES.txt'
+[3.223s] running build
+[3.224s] running build_py
+[3.224s] creating /root/marina_asv/build/marina_asv_navigation/build
+[3.225s] creating /root/marina_asv/build/marina_asv_navigation/build/lib
+[3.226s] creating /root/marina_asv/build/marina_asv_navigation/build/lib/marina_asv_navigation
+[3.227s] copying marina_asv_navigation/__init__.py -> /root/marina_asv/build/marina_asv_navigation/build/lib/marina_asv_navigation
+[3.227s] running install
+[3.234s] running install_lib
+[3.253s] creating /root/marina_asv/install/lib/python3.12/site-packages/marina_asv_navigation
+[3.254s] copying /root/marina_asv/build/marina_asv_navigation/build/lib/marina_asv_navigation/__init__.py -> /root/marina_asv/install/lib/python3.12/site-packages/marina_asv_navigation
+[3.255s] byte-compiling /root/marina_asv/install/lib/python3.12/site-packages/marina_asv_navigation/__init__.py to __init__.cpython-312.pyc
+[3.256s] running install_data
+[3.256s] copying resource/marina_asv_navigation -> /root/marina_asv/install/share/ament_index/resource_index/packages
+[3.257s] copying package.xml -> /root/marina_asv/install/share/marina_asv_navigation
+[3.257s] running install_egg_info
+[3.293s] Copying ../../build/marina_asv_navigation/marina_asv_navigation.egg-info to /root/marina_asv/install/lib/python3.12/site-packages/marina_asv_navigation-0.0.0-py3.12.egg-info
+[3.296s] running install_scripts
+[3.470s] writing list of installed files to '/root/marina_asv/build/marina_asv_navigation/install.log'
+[3.519s] Invoked command in '/root/marina_asv/src/marina_asv_navigation' returned '0': PYTHONPATH=/root/marina_asv/build/marina_asv_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/marina_asv/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marina_asv_navigation build --build-base /root/marina_asv/build/marina_asv_navigation/build install --record /root/marina_asv/build/marina_asv_navigation/install.log --single-version-externally-managed install_data

@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Up-to-date: /root/marina_asv/install/share/marina_asv_description/urdf
+-- Up-to-date: /root/marina_asv/install/share/marina_asv_description/urdf/marina_asv.urdf.xacro
+-- Up-to-date: /root/marina_asv/install/share/marina_asv_description/meshes
+-- Up-to-date: /root/marina_asv/install/share/marina_asv_description/launch
+-- Installing: /root/marina_asv/install/share/marina_asv_description/launch/view_robot.launch.py
+-- Up-to-date: /root/marina_asv/install/share/marina_asv_description/config
+-- Up-to-date: /root/marina_asv/install/share/ament_index/resource_index/package_run_dependencies/marina_asv_description
+-- Up-to-date: /root/marina_asv/install/share/ament_index/resource_index/parent_prefix_path/marina_asv_description
+-- Up-to-date: /root/marina_asv/install/share/marina_asv_description/environment/ament_prefix_path.sh
+-- Up-to-date: /root/marina_asv/install/share/marina_asv_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/marina_asv/install/share/marina_asv_description/environment/path.sh
+-- Up-to-date: /root/marina_asv/install/share/marina_asv_description/environment/path.dsv
+-- Up-to-date: /root/marina_asv/install/share/marina_asv_description/local_setup.bash
+-- Up-to-date: /root/marina_asv/install/share/marina_asv_description/local_setup.sh
+-- Up-to-date: /root/marina_asv/install/share/marina_asv_description/local_setup.zsh
+-- Up-to-date: /root/marina_asv/install/share/marina_asv_description/local_setup.dsv
+-- Up-to-date: /root/marina_asv/install/share/marina_asv_description/package.dsv
+-- Up-to-date: /root/marina_asv/install/share/ament_index/resource_index/packages/marina_asv_description
+-- Up-to-date: /root/marina_asv/install/share/marina_asv_description/cmake/marina_asv_descriptionConfig.cmake
+-- Up-to-date: /root/marina_asv/install/share/marina_asv_description/cmake/marina_asv_descriptionConfig-version.cmake
+-- Up-to-date: /root/marina_asv/install/share/marina_asv_description/package.xml

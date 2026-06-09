@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/marina_asv_reporting/marina_asv_reporting.egg-info/PKG-INFO
+../../build/marina_asv_reporting/marina_asv_reporting.egg-info/SOURCES.txt
+../../build/marina_asv_reporting/marina_asv_reporting.egg-info/dependency_links.txt
+../../build/marina_asv_reporting/marina_asv_reporting.egg-info/requires.txt
+../../build/marina_asv_reporting/marina_asv_reporting.egg-info/top_level.txt
+../../build/marina_asv_reporting/marina_asv_reporting.egg-info/zip-safe
+marina_asv_reporting/__init__.py
+resource/marina_asv_reporting
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

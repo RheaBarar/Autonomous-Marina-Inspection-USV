@@ -1,0 +1,6 @@
+Invoking command in '/root/marina_asv/build/marina_asv_description': /usr/bin/cmake /root/marina_asv/src/marina_asv_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/marina_asv/install
+Invoked command in '/root/marina_asv/build/marina_asv_description' returned '0': /usr/bin/cmake /root/marina_asv/src/marina_asv_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/marina_asv/install
+Invoking command in '/root/marina_asv/build/marina_asv_description': /usr/bin/cmake --build /root/marina_asv/build/marina_asv_description -- -j8 -l8
+Invoked command in '/root/marina_asv/build/marina_asv_description' returned '0': /usr/bin/cmake --build /root/marina_asv/build/marina_asv_description -- -j8 -l8
+Invoking command in '/root/marina_asv/build/marina_asv_description': /usr/bin/cmake --install /root/marina_asv/build/marina_asv_description
+Invoked command in '/root/marina_asv/build/marina_asv_description' returned '0': /usr/bin/cmake --install /root/marina_asv/build/marina_asv_description

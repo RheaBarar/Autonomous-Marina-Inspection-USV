@@ -1,0 +1,17 @@
+running egg_info
+writing ../../build/marina_asv_reporting/marina_asv_reporting.egg-info/PKG-INFO
+writing dependency_links to ../../build/marina_asv_reporting/marina_asv_reporting.egg-info/dependency_links.txt
+writing requirements to ../../build/marina_asv_reporting/marina_asv_reporting.egg-info/requires.txt
+writing top-level names to ../../build/marina_asv_reporting/marina_asv_reporting.egg-info/top_level.txt
+reading manifest file '../../build/marina_asv_reporting/marina_asv_reporting.egg-info/SOURCES.txt'
+writing manifest file '../../build/marina_asv_reporting/marina_asv_reporting.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/root/marina_asv/install/lib/python3.12/site-packages/marina_asv_reporting-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/marina_asv_reporting/marina_asv_reporting.egg-info to /root/marina_asv/install/lib/python3.12/site-packages/marina_asv_reporting-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/root/marina_asv/build/marina_asv_reporting/install.log'

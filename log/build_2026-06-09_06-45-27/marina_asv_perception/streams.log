@@ -1,0 +1,29 @@
+[2.783s] Invoking command in '/root/marina_asv/src/marina_asv_perception': PYTHONPATH=/root/marina_asv/build/marina_asv_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/marina_asv/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marina_asv_perception build --build-base /root/marina_asv/build/marina_asv_perception/build install --record /root/marina_asv/build/marina_asv_perception/install.log --single-version-externally-managed install_data
+[3.129s] running egg_info
+[3.130s] creating ../../build/marina_asv_perception/marina_asv_perception.egg-info
+[3.163s] writing ../../build/marina_asv_perception/marina_asv_perception.egg-info/PKG-INFO
+[3.163s] writing dependency_links to ../../build/marina_asv_perception/marina_asv_perception.egg-info/dependency_links.txt
+[3.164s] writing requirements to ../../build/marina_asv_perception/marina_asv_perception.egg-info/requires.txt
+[3.165s] writing top-level names to ../../build/marina_asv_perception/marina_asv_perception.egg-info/top_level.txt
+[3.165s] writing manifest file '../../build/marina_asv_perception/marina_asv_perception.egg-info/SOURCES.txt'
+[3.213s] reading manifest file '../../build/marina_asv_perception/marina_asv_perception.egg-info/SOURCES.txt'
+[3.215s] writing manifest file '../../build/marina_asv_perception/marina_asv_perception.egg-info/SOURCES.txt'
+[3.215s] running build
+[3.215s] running build_py
+[3.215s] creating /root/marina_asv/build/marina_asv_perception/build
+[3.216s] creating /root/marina_asv/build/marina_asv_perception/build/lib
+[3.217s] creating /root/marina_asv/build/marina_asv_perception/build/lib/marina_asv_perception
+[3.217s] copying marina_asv_perception/__init__.py -> /root/marina_asv/build/marina_asv_perception/build/lib/marina_asv_perception
+[3.217s] running install
+[3.224s] running install_lib
+[3.246s] creating /root/marina_asv/install/lib/python3.12/site-packages/marina_asv_perception
+[3.247s] copying /root/marina_asv/build/marina_asv_perception/build/lib/marina_asv_perception/__init__.py -> /root/marina_asv/install/lib/python3.12/site-packages/marina_asv_perception
+[3.247s] byte-compiling /root/marina_asv/install/lib/python3.12/site-packages/marina_asv_perception/__init__.py to __init__.cpython-312.pyc
+[3.248s] running install_data
+[3.248s] copying resource/marina_asv_perception -> /root/marina_asv/install/share/ament_index/resource_index/packages
+[3.248s] copying package.xml -> /root/marina_asv/install/share/marina_asv_perception
+[3.249s] running install_egg_info
+[3.271s] Copying ../../build/marina_asv_perception/marina_asv_perception.egg-info to /root/marina_asv/install/lib/python3.12/site-packages/marina_asv_perception-0.0.0-py3.12.egg-info
+[3.273s] running install_scripts
+[3.436s] writing list of installed files to '/root/marina_asv/build/marina_asv_perception/install.log'
+[3.481s] Invoked command in '/root/marina_asv/src/marina_asv_perception' returned '0': PYTHONPATH=/root/marina_asv/build/marina_asv_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/marina_asv/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/marina_asv_perception build --build-base /root/marina_asv/build/marina_asv_perception/build install --record /root/marina_asv/build/marina_asv_perception/install.log --single-version-externally-managed install_data

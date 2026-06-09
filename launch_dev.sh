@@ -1,5 +1,5 @@
 #!/bin/bash
-docker run -it \
+docker rm -f marina_asv_dev 2>/dev/null; docker run -it \
   --env DISPLAY=:0 \
   --env WAYLAND_DISPLAY=wayland-0 \
   --env XDG_RUNTIME_DIR=/mnt/wslg/runtime-dir \

@@ -1,0 +1,51 @@
+[0.063s] Invoking command in '/root/marina_asv/build/marina_asv_description': /usr/bin/cmake /root/marina_asv/src/marina_asv_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/marina_asv/install
+[0.931s] -- The C compiler identification is GNU 13.3.0
+[0.931s] -- The CXX compiler identification is GNU 13.3.0
+[0.932s] -- Detecting C compiler ABI info
+[0.932s] -- Detecting C compiler ABI info - done
+[0.932s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.932s] -- Detecting C compile features
+[0.933s] -- Detecting C compile features - done
+[0.933s] -- Detecting CXX compiler ABI info
+[0.933s] -- Detecting CXX compiler ABI info - done
+[0.933s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.933s] -- Detecting CXX compile features
+[0.934s] -- Detecting CXX compile features - done
+[1.003s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.289s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.027s] -- Configuring done (1.9s)
+[2.035s] -- Generating done (0.0s)
+[2.036s] [33mCMake Warning:
+[2.036s]   Manually-specified variables were not used by the project:
+[2.036s] 
+[2.037s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[2.037s] 
+[2.037s] [0m
+[2.039s] -- Build files have been written to: /root/marina_asv/build/marina_asv_description
+[2.045s] Invoked command in '/root/marina_asv/build/marina_asv_description' returned '0': /usr/bin/cmake /root/marina_asv/src/marina_asv_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/marina_asv/install
+[2.047s] Invoking command in '/root/marina_asv/build/marina_asv_description': /usr/bin/cmake --build /root/marina_asv/build/marina_asv_description -- -j8 -l8
+[2.112s] Invoked command in '/root/marina_asv/build/marina_asv_description' returned '0': /usr/bin/cmake --build /root/marina_asv/build/marina_asv_description -- -j8 -l8
+[2.127s] Invoking command in '/root/marina_asv/build/marina_asv_description': /usr/bin/cmake --install /root/marina_asv/build/marina_asv_description
+[2.141s] -- Install configuration: ""
+[2.141s] -- Installing: /root/marina_asv/install/share/marina_asv_description/urdf
+[2.141s] -- Installing: /root/marina_asv/install/share/marina_asv_description/urdf/marina_asv.urdf.xacro
+[2.142s] -- Installing: /root/marina_asv/install/share/marina_asv_description/meshes
+[2.143s] -- Installing: /root/marina_asv/install/share/marina_asv_description/launch
+[2.144s] -- Installing: /root/marina_asv/install/share/marina_asv_description/launch/view_robot.launch.py
+[2.144s] -- Installing: /root/marina_asv/install/share/marina_asv_description/config
+[2.146s] -- Installing: /root/marina_asv/install/share/ament_index/resource_index/package_run_dependencies/marina_asv_description
+[2.147s] -- Installing: /root/marina_asv/install/share/ament_index/resource_index/parent_prefix_path/marina_asv_description
+[2.147s] -- Installing: /root/marina_asv/install/share/marina_asv_description/environment/ament_prefix_path.sh
+[2.148s] -- Installing: /root/marina_asv/install/share/marina_asv_description/environment/ament_prefix_path.dsv
+[2.148s] -- Installing: /root/marina_asv/install/share/marina_asv_description/environment/path.sh
+[2.148s] -- Installing: /root/marina_asv/install/share/marina_asv_description/environment/path.dsv
+[2.149s] -- Installing: /root/marina_asv/install/share/marina_asv_description/local_setup.bash
+[2.149s] -- Installing: /root/marina_asv/install/share/marina_asv_description/local_setup.sh
+[2.149s] -- Installing: /root/marina_asv/install/share/marina_asv_description/local_setup.zsh
+[2.150s] -- Installing: /root/marina_asv/install/share/marina_asv_description/local_setup.dsv
+[2.150s] -- Installing: /root/marina_asv/install/share/marina_asv_description/package.dsv
+[2.150s] -- Installing: /root/marina_asv/install/share/ament_index/resource_index/packages/marina_asv_description
+[2.151s] -- Installing: /root/marina_asv/install/share/marina_asv_description/cmake/marina_asv_descriptionConfig.cmake
+[2.152s] -- Installing: /root/marina_asv/install/share/marina_asv_description/cmake/marina_asv_descriptionConfig-version.cmake
+[2.152s] -- Installing: /root/marina_asv/install/share/marina_asv_description/package.xml
+[2.155s] Invoked command in '/root/marina_asv/build/marina_asv_description' returned '0': /usr/bin/cmake --install /root/marina_asv/build/marina_asv_description

@@ -1,0 +1,4 @@
+Invoking command in '/root/marina_asv/build/marina_asv_description': /usr/bin/cmake --build /root/marina_asv/build/marina_asv_description -- -j8 -l8
+Invoked command in '/root/marina_asv/build/marina_asv_description' returned '0': /usr/bin/cmake --build /root/marina_asv/build/marina_asv_description -- -j8 -l8
+Invoking command in '/root/marina_asv/build/marina_asv_description': /usr/bin/cmake --install /root/marina_asv/build/marina_asv_description
+Invoked command in '/root/marina_asv/build/marina_asv_description' returned '0': /usr/bin/cmake --install /root/marina_asv/build/marina_asv_description
